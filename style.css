@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
 
 * {
     margin: 0;
@@ -10,14 +11,14 @@
 .container {
     min-height: 100vh;
     width: 100%;
-    background: #000;
+    background: linear-gradient(#4E65FF , #92EFFD);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .card {
-    width: 550px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
     color: #fff;
     cursor: pointer;
     perspective: 1000px;
@@ -37,7 +38,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px 30px;
+    padding: 10px 20px;
     border-radius: 15px;
     overflow: hidden;
     z-index: 1;
@@ -47,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .map-img {
     width: 100%;
@@ -58,16 +59,16 @@
     z-index: -1;
 }
 .card-no {
-    font-size: 35px;
-    margin-top: 70px;
+    font-size: 25px;
+    margin-top: 40px;
 }
 .card-holder {
-    font-size: 12px;
+    font-size: 8px;
     margin-top: 45px;
 }
 .name {
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 12px;
+    margin-top: 10px;
 }
 .bar {
     background: #222;
@@ -90,19 +91,23 @@
 .card-cvv p {
     background: #fff;
     color: #000;
-    font-size: 22px;
+    font-size: 12px;
     padding: 10px 20px;
 }
 .card-text {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .signature {
-    margin-top: 70px;
+    margin-top: 10px;
+    font-size: 10px;
 }
 .back {
     transform: rotateY(180deg);
 }
 .card:hover .card-inner {
     transform: rotateY(-180deg);
+}
+.sig {
+    font-family: 'Edu TAS Beginner', cursive;
 }
